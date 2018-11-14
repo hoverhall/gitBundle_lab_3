@@ -1,0 +1,63 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background: #49067A;
+}
+
+.content{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 15px 15px;
+	background: #cfcfcf;
+	overflow: hidden;
+	align-content: center;
+}
+
+main .content{
+	background: #C580FA;
+}
+
+#container{
+	min-height: 50%;
+}
+
+#main, #main *{
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+#footer{
+	position: relative;
+	clear: both;
+}
+
+@media (orientation: portrait){
+	#main img{
+		width: 50%;
+		height: 50%;
+	}
+	#header nav li a{
+		font-size: 25pt;
+	}
+	#header nav li:visited a{
+		font-size: 25pt;
+	}
+	#footer a{
+		font-size: 20pt;
+	}
+	#footer a:visited{
+		font-size: 20pt;
+	}
+	#footer nav li{
+		padding-top: 15px;
+		padding-left: 200px;
+	}
+	#container{
+		min-height: 72%;
+	}
+}
