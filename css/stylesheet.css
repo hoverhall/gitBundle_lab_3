@@ -37,25 +37,31 @@ main .content{
 }
 
 @media (orientation: portrait){
+	html, body{
+		width: 100%;
+		height: 100%;
+	}
 	#main img{
 		width: 50%;
 		height: 50%;
 	}
 	#header nav li a{
-		font-size: 25pt;
+		padding: 3px 8px;
+		font-size: 10pt;
 	}
-	#header nav li:visited a{
-		font-size: 25pt;
+	#header img, #header .logo{
+		padding: 0;
+		width: 40%; height: auto;
 	}
 	#footer a{
-		font-size: 20pt;
+		font-size: 10pt;
 	}
 	#footer a:visited{
 		font-size: 20pt;
 	}
 	#footer nav li{
-		padding-top: 15px;
-		padding-left: 200px;
+		padding-top: 10px;
+		padding-left: 50px;
 	}
 	#container{
 		min-height: 72%;
